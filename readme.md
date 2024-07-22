@@ -4,7 +4,7 @@
 1. Установить компоненты LXC:
     sudo apt update && sudo apt install -y lxc lxc-astra
 2. Разрешить выполнение скрипта:
-    chown +x lxc.sh
+    chmod +x lxc.sh
 3. Запустить скрипт:
     ./lxc.sh Имя_контейнера [Дистрибутив] [Пакеты]
 По умолчанию используется дистрибутив - astralinux-se, пакет - nginx
